@@ -43,7 +43,7 @@
 
 ## internals
 
- - commands 
+ - commands (145)
    - porcelain (82)
      - 44 main commands (add, commit, push, pull, ...)
      - 11 manipulators  (config, reflog, replace, ...)
