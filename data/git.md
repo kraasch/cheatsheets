@@ -102,6 +102,10 @@ dir/
        - lightweight = pure pointer.
        - annotated   = meta data: message + author.
 
+## software
+
+ - [tig](https://github.com/jonas/tig)
+
 ## sources
 
  - [So You Think You Know Git - FOSDEM 2024 by GitButler](https://www.youtube.com/watch?v=aolI_Rz0ZqY)
