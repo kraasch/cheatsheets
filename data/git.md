@@ -57,11 +57,11 @@
 
  - core data types.
    - objects.
-     1. blobs  = raw binary file data.
-     2. tree   = directory structure: subdir refs + blob refs.
-     3. commit = time + message + parent commit ref + tree ref.
+     - blobs  = raw binary file data.
+     - tree   = directory structure: subdir refs + blob refs.
+     - commit = time + message + parent commit ref + tree ref.
    - others.
-     1. tags   = ref to a commit.
+     - tags   = ref to a commit.
        - lightweight = pure pointer.
        - annotated   = meta data: message + author.
 
