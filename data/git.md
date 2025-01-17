@@ -7,6 +7,43 @@
 
 ## structure
 
+### dot-gitconfig
+
+```gitconfig
+[user]                               #
+  name  = Name                       #
+  email = e@mail.com                 #
+[diff]                               #
+  tool = vimdiff                     #
+[merge]                              #
+  tool = meld # or lazygit.          #
+[init]                               #
+  defaultBranch = master             #
+[core]                               #
+  editor = vim                       #
+[credential]                         #
+  helper = cache                     #
+[filter "lfs"]                       #
+  clean    = git-lfs clean -- %f     #
+  smudge   = git-lfs smudge -- %f    #
+  process  = git-lfs filter-process  #
+  required = true                    #
+[alias]                              #
+  ad = "add ."                       #
+  ca = "commit --amend -m"           #
+  ph = "!git push; git push --tags"  #
+```
+
+### dot-gitignore
+
+```text
+# a comment
+dir/
+*txt
+```
+
+### dot-git
+
 ```text
 .git/                    <-
 ├── branches             <-
