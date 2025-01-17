@@ -61,7 +61,7 @@
      2. tree   = directory structure: subdir refs + blob refs.
      3. commit = time + message + parent commit ref + tree ref.
    - others.
-     4. tags   = ref to a commit.
+     1. tags   = ref to a commit.
        - lightweight = pure pointer.
        - annotated   = meta data: message + author.
 
