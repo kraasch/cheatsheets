@@ -34,6 +34,14 @@
   ph = "!git push; git push --tags"  #
 ```
 
+### dot-gitattributes
+
+ - run: `git config diff.exif.textconv exiftool`
+
+```text
+*.png diff=exif
+```
+
 ### dot-gitignore
 
 ```text
@@ -91,6 +99,29 @@ dir/
      - 21 interrogators (cat-file, for-each-ref, ...)
      -  5 syncing       (fetch-pack, send-pack, ...)
      - 18 internal      (check-attr, sh-i18n, ...)
+
+ - hooks (28)
+   - un-useful (17)
+     - git email stuff (4)
+     - perforce stuff (4)
+     - server stuff (6)
+     - ms large repo scaling stuff (3)
+   - useful (11)
+     - commit stuff (4)
+       - `pre-commit`
+       - `prepare-commit-msg`
+       - `commmit-msg`
+       - `post-commit`
+     - merge stuff (2)
+       - `post-merge`
+       - `pre-merge-commit`
+     - rewrite stuff (2)
+       - `pre-rebase`
+       - `post-rewrite`
+     - switch/push stuff (3)
+       - `post-checkout`
+       - `reference-transaction`
+       - `pre-push`
 
  - core data types.
    - objects.
