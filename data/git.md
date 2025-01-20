@@ -37,6 +37,11 @@
 ### dot-gitattributes
 
  - run: `git config diff.exif.textconv exiftool`
+ - uses smudge+clean filters
+ - e.g. for lfs
+   - `apt install git-lfs`
+   - `git lfs install`
+   - `git lfs track '*.mov'`
 
 ```text
 *.png diff=exif
