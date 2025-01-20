@@ -137,6 +137,8 @@ dir/
      - tags   = ref to a commit.
        - lightweight = pure pointer.
        - annotated   = meta data: message + author.
+ - other data types.
+   - worktree = extra work directories for parallel branching.
 
 ## software
 
