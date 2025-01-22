@@ -147,6 +147,7 @@ dir/
 ## sources
 
  - [So You Think You Know Git - FOSDEM 2024 by GitButler](https://www.youtube.com/watch?v=aolI_Rz0ZqY)
+ - [So You Think You Know Git Part 2 - DevWorld 2024](https://www.youtube.com/watch?v=Md44rcw13k4)
 
 ## further reading
 
