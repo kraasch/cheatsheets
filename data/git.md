@@ -140,7 +140,30 @@ dir/
  - other data types.
    - worktree = extra work directories for parallel branching.
 
-## software
+## main concepts TODO ... maybe remove this section.
+
+ - repositories (repos)
+ - clone
+ - commit
+ - branching
+ - merging
+ - rebase
+ - staging area
+ - pull and push
+ - remote repositories
+ - forking
+ - git flow
+ - tags
+ - conflicts
+ - undo changes (git reset, git checkout, git revert)
+ - cherry-pick
+ - reflog
+ - submodules
+ - hooks
+ - git ignore
+ - blame
+
+## related software
 
  - [tig](https://github.com/jonas/tig)
 
