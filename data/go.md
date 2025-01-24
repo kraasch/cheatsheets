@@ -14,3 +14,8 @@
    - deploy/   ⇒ K8s files
    - scripts/  ⇒ micellany
    - vendor/   ⇒ modules
+
+
+## good sources
+
+ - [Matt KØDVB - Go Class: 41 Building Go Programs](https://youtu.be/rXgUP_BNyaI?t=442)
