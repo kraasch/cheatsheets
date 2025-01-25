@@ -1,6 +1,8 @@
 
 # go
 
+## project layout
+
  - project layout
    - README.md ⇒ readme
    - Makefile  ⇒ make
@@ -14,6 +16,19 @@
    - deploy/   ⇒ K8s files
    - scripts/  ⇒ micellany
    - vendor/   ⇒ modules
+
+## words to live by
+ 
+ - some rules of thumb.
+   - clear is better than clever
+   - a little copying over a little dependency
+   - concurrency is not parallelism
+   - channels orchestrate, mutexes serialize
+   - don't communicate by sharing memory, share memory by communicating
+   - make the zero value useful
+   - the bigger the interface the weaker the abstraction
+   - errors are values
+   - don't just check errors, handle them gracefully
 
 
 ## good sources
