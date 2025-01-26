@@ -1,6 +1,10 @@
 
 # go
 
+## terms
+
+ - csp = communicating sequential processes (alternative concurrency model to mutexes and semaphores.)
+
 ## project layout
 
  - project layout
